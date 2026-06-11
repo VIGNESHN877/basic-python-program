@@ -13,5 +13,11 @@ for a example . lets consider the number 153.
 . it has three digits (1,5 and 3).
 . if we calculate 1^3 + 5^3 + 3^3 . we get 1+153+27 , Which is equal to 153.
 
+So, 153 is an Armstrong number because it equals the sum of its digits raised to the power 
+of the number of digits in the number 
 
+
+Another Example is 1974
+
+.
 """
