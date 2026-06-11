@@ -19,5 +19,9 @@ of the number of digits in the number
 
 Another Example is 1974
 
-.
+.it has four digits (9,4,7 and 4 ).
+
+. if we calculate 9^4+4^4+7^4, we get 6561 +256 + 2401 +256. Which is also equal to 9474.
+
+Therefore 9474 is  an Armstorng number as well
 """
