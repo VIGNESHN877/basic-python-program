@@ -12,3 +12,16 @@ denoted as "N" and can be axpressed as :
 
 
 """
+limit=int(input("Enter the limit: "))
+
+# Initialize the Sum
+
+sum=0
+
+#Use a for Loop to calculate the sum of the natural numbers
+
+for i in range(1,limit+1):
+    sum +=i
+
+print("The sum of Natural numbers up to ",limit,"is :",sum)
+
