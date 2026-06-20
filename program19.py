@@ -165,3 +165,31 @@ if sum_of_powers == num :
     print(f"{num} is an Armstrong number .")
 else :
     print(f"{num} is not an Armstrong number .")
+
+
+num=int(input("ENTER A NUMBER  :"))
+
+#calculate the number of digits in num
+
+num_str=str(num)
+num_digits=len(num_str)
+
+# initialize variables
+
+sum_of_powers=0
+temp_num=num
+
+# Calculate the sum of digits rasied to the power of num_digits
+
+while temp_num >0 :
+    digit=temp_num %10
+    sum_of_powers +=digit** num_digits
+    temp_num//=10
+
+
+# Check if it's an Armstrong numbers
+
+if sum_of_powers == num :
+    print(f"{num} is an Armstrong number .")
+else :
+    print(f"{num} is not an Armstrong number .")
